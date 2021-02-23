@@ -38,6 +38,7 @@ Other examples are:
 ``tessedit_create_pdf 1    .pdf output file``
 
 ``textonly_pdf 1 creates PDF with only one invisible text layer``
+Really usefull for storing only the text, if you don't need the shape and other forms of the document. Small file
 
 
 # Assign a volume to your container 
