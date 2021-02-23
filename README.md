@@ -25,7 +25,14 @@ Add this lines to it:
 
 ``tessedit_create_pdf     1       Write .pdf output file``
 
-``tessedit_create txt     1       Write .txt output file``
+Other examples are:
+
+tessedit_write_unlv 1    .unlv output file
+tessedit_create_txt 1    .txt output file (default)
+tessedit_create_hocr 1  .html hOCR output file
+tessedit_create_tsv 1    .tsv output file
+tessedit_create_pdf 1    .pdf output file
+textonly_pdf 1 creates PDF with only one invisible text layer
 
 # Assign a volume to your container 
 ``/home/tesseract-ocr/data/:/data``
