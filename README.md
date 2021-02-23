@@ -20,6 +20,7 @@ For example: ``mkdir /home/tesseract-ocr/data/tessdata``
 
 # Create a config file containing the instructions to export:
 ``nano /home/tesseract-ocr/data/tessdata/config.conf``
+
 Add this lines to it:
 
 ``tessedit_create_pdf     1       Write .pdf output file``
@@ -33,3 +34,6 @@ Add this lines to it:
 
 # Then modify your container CMD and set it like this:
 ``'tesseract' '--tessdata-dir' '/data/tessdata' '/data/img.jpg' '/data/exported' '-l' 'spa' '--oem' '1' '/data/tessdata/config.conf'``
+# Now put a jpg file on your run your data folder and run your container
+You will get a searchable pdf called exported.pdf
+# That's it!
