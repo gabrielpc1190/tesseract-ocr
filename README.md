@@ -22,8 +22,9 @@ For example: ``mkdir /home/tesseract-ocr/data/tessdata``
 ``nano /home/tesseract-ocr/data/tessdata/config.conf``
 Add this lines to it:
 
-``tessedit_create_pdf     1       Write .pdf output file``
-``tessedit_create txt     1       Write .txt output file``
+``tessedit_create_pdf     1       Write .pdf output file
+
+tessedit_create txt     1       Write .txt output file``
 
 # Assign a volume to your container 
 ``/home/tesseract-ocr/data/:/data``
